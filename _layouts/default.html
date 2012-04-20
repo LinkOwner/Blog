@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title>  Marco Teixeira, Developer</title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Marco Teixeira, Developer</title>
   <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
@@ -22,15 +22,7 @@
       </ul>
     </nav>
  
-    <section role="banner">
-  <img src="/img/banner.jpg" />
-</section>
- 
-<section class="content">
-  <p>
-  Welcome to Marco Teixeira Developer!.
-  </p>
-</section>
+    {{ content }}
  
     <footer>
       <p>@copy; Marco Teixeira Developer 2012 | All Rights Reserved. </p>
