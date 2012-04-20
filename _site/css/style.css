@@ -1,7 +1,7 @@
 body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
-  background: black;
-  color: #ececec;
+  background-color: #333333;
+  color: #333333;
   padding: 0;
   margin: 0;
 }
@@ -22,7 +22,8 @@ a:hover {
 #main {
   width: 960px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.4);
+  /*background: rgba(255, 255, 255, 0.4);*/
+  background-color: #FFFFFF;
 }
 header {
   padding: 0 10px;
@@ -71,4 +72,8 @@ ul.entries a:hover {
 footer {
   font-size: 0.65em;
   text-align: center;
+}
+
+footer div{
+	
 }
