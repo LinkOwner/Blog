@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <div class="content" style='width:960px;'>
@@ -10,5 +11,16 @@ layout: default
 			<p class="postDate">Posted on {{page.date | date: "%d %B %Y"}}</p>
 			<p>{{content}}</p>
 		</article>
+	</section>
+	<section>
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+			var disqus_shortname = 'maviteixeira';
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
 	</section>
 <div>
