@@ -5,6 +5,11 @@ body {
   padding: 0;
   margin: 0;
 }
+
+h1{
+	font-size:36px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -34,13 +39,13 @@ header h1{
 header {
   padding: 0 10px;
   overflow: hidden;
-  margin-top:70px;
+  margin-top:15px;
 }
 h1 {
   margin: 0;
 }
 
-#presentation{
+.presentation{
 	color: #999;
 	font-size: 1em;
 	font-family: Helvetica, sans-serif;
@@ -87,11 +92,60 @@ ul.entries a:hover {
 footer {
   font-size: 0.65em;
   text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 35px;
+  width: 100%;
+  background: #333;
 }
 
+/* -----Posts-----*/
 p{
 	font-family: Palatino, Georgia, 'Times New Roman', Times, serif;
 	text-indent: 0;
 	font-size: 1em;
 	line-height: 1.7;
 }
+
+.postTitle{
+	font-size:25px;
+	height:20px;
+}
+
+.postDate{
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.content p{
+	margin-top: 1.5em;
+	color: #333;
+}
+.footerContent{
+	margin: auto;
+}
+.footerContent p{
+	color: #AAA;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-right: 25px;
+}
+
+.feed a{
+	color: #AAA;
+}
+
+.feed{
+	background: url(/images/feed.png) no-repeat;
+	padding-left: 25px;
+}
+.ul{
+	text-align:center;
+}
+
+.ul li{
+	display:inline;
+	margin-right:25px;
+}
+
