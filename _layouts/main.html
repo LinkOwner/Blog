@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title>  Marco Teixeira</title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Marco Teixeira</title>
   <link rel="stylesheet" href="css/style.css" type="text/css" />
   <link rel="stylesheet" href="css/post.css" type="text/css" />
 </head>
@@ -14,6 +14,8 @@
       <h1> Marco Teixeira</h1>
 	  <p id="presentation">Just a personal blog</p>
     <header>
+ 
+    {{ content }}
  
     <footer>
 		<div>

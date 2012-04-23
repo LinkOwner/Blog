@@ -1,6 +1,6 @@
 body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
-  background-color: #333333;
+  background-color: #FFFFFF;
   color: #333333;
   padding: 0;
   margin: 0;
@@ -25,12 +25,27 @@ a:hover {
   /*background: rgba(255, 255, 255, 0.4);*/
   background-color: #FFFFFF;
 }
+
+header h1{
+	margin: 0 auto;
+	text-align:center;
+}
+
 header {
   padding: 0 10px;
   overflow: hidden;
+  margin-top:70px;
 }
 h1 {
   margin: 0;
+}
+
+#presentation{
+	color: #999;
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+	margin: 0 auto;
+	text-align:center;
 }
  
 nav ul, ul.entries {
@@ -74,6 +89,9 @@ footer {
   text-align: center;
 }
 
-footer div{
-	
+p{
+	font-family: Palatino, Georgia, 'Times New Roman', Times, serif;
+	text-indent: 0;
+	font-size: 1em;
+	line-height: 1.7;
 }
