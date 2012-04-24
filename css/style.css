@@ -1,17 +1,26 @@
+/*DEFAULT*/
 header {padding: 0 10px;overflow: hidden;margin-top:15px;text-align:center;}
 header p{color: #999;font-size: 1em;font-family: Helvetica, sans-serif;margin: 0 auto;text-align:center;}
 body {font-family: Palatino, Georgia, 'Times New Roman', Times, serif;font-size: 16px;background-color: #EEEEEE;color: #333333;padding: 0;margin: 0;}
-footer {font-size: 0.65em;text-align: center;position: fixed;left: 0px;bottom: 0px;height: 35px;width: 100%;background: #333;margin: auto;}
-footer p {color: #AAA;margin-top: 0;margin-bottom: 0;font-family: Helvetica, Arial, sans-serif;margin-right: 25px;}
 h1 { font-family:verdana, helvetica-neue, helvetica, arial, san-serif;font-size:36px; margin: 0; }
 p {font-family: Palatino, Georgia, 'Times New Roman', Times, serif;text-indent: 0;font-size: 1em;line-height: 1.7;}
-ul {margin: 0;padding: 0; text-align:center; }
-ul li{display:inline;margin-right:25px;}
+#main {width: 960px;margin: 0 auto;background-color: #EEEEEE;}
+
+/*LINKS*/
 a {color: #9f8456;text-decoration: none;}
 a:hover {color: #A1A456;text-decoration: none;}
-#main {width: 960px;margin: 0 auto;background-color: #EEEEEE;}
+
+/*POSTS*/
 #post p {margin-top: 1.5em;color: #333;}
 #post p:first-child, section article p{font-size:25px;height:20px;}
 #post p:first-child a{margin-top: 1.5em;color: #333;}
 .date {font-size: 11px;letter-spacing: 1px;}
+
+/*FOOTER*/
+footer {font-size: 0.65em;text-align: center;position: fixed;left: 0px;bottom: 0px;height: 35px;width: 100%;background: #333;margin: auto;}
+footer p {color: #AAA;margin-top: 0;margin-bottom: 0;font-family: Helvetica, Arial, sans-serif;margin-right: 25px;}
+ul {margin: 0;padding: 0; text-align:center; }
+ul li{display:inline;margin-right:25px;}
+
+/*COMMENTS*/
 #disqus_thread { margin-top:35px; }
