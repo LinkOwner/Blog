@@ -3,11 +3,10 @@ layout: default
 ---
 
 {% assign p = site.posts.first %}
-<div id="post" class="content">
-  <p class="postTitle"><a href="{{ p.url }}">{{ p.title}}</a></p>
+<div id="post">
+  <p><a href="{{ p.url }}">{{ p.title}}</a></p>
   <hr/>
-  <p class="postDate"><span class="date">Posted on {{ p.date | date: "%d/%m/%Y" }}</span></p>
-  <p class="postDate"></p>
+  <p class="date"><span class="date">Posted on {{ p.date | date: "%d/%m/%Y" }}</span></p>
   {{ p.content }}
   <p><a href="/posts/all">Ver todos os posts</a></p>
 </div>
