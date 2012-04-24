@@ -12,7 +12,7 @@ a:hover {color: #A1A456;text-decoration: none;}
 
 /*POSTS*/
 #post p {margin-top: 1.5em;color: #333;}
-#post p:first-child, section article p{font-size:25px;height:20px;}
+#post p:first-child {font-size:25px;height:20px;}
 #post p:first-child a{margin-top: 1.5em;color: #333;}
 .date {font-size: 11px;letter-spacing: 1px;}
 
