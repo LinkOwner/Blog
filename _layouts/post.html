@@ -3,12 +3,12 @@ layout: default
 comments: true
 ---
 <link rel="stylesheet" href="css/style.css" type="text/css" />
-<div class="content" style='width:960px;'>
+<div class="content">
 	<section>
 		<article>
 			<p class="postTitle">{{ page.title }} </p>
 			<hr>
-			<p class="postDate">Posted on {{page.date | date: "%d %B %Y"}}</p>
+			<p class="postDate">Posted on {{page.date | date: "%d/%m/%Y"}}</p>
 			<p>{{content}}</p>
 		</article>
 	</section>
@@ -22,5 +22,6 @@ comments: true
 				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 			})();
 		</script>
+		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 	</section>
 <div>

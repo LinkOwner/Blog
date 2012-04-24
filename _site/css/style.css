@@ -1,6 +1,6 @@
 body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
   color: #333333;
   padding: 0;
   margin: 0;
@@ -15,20 +15,20 @@ ul {
   padding: 0;
 }
 a {
-  color: #ccc;
+  color: #9f8456;
   text-decoration: none;
 }
  
 a:hover {
-  color: #ececec;
-  text-decoration: underline;
+  color: #A1A456;
+  text-decoration: none;
 }
  
 #main {
   width: 960px;
   margin: 0 auto;
   /*background: rgba(255, 255, 255, 0.4);*/
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
 }
 
 header h1{
@@ -113,6 +113,11 @@ p{
 	height:20px;
 }
 
+.postTitle a{
+	margin-top: 1.5em;
+	color: #333;
+}
+
 .postDate{
 	font-size: 11px;
 	letter-spacing: 1px;
@@ -148,4 +153,6 @@ p{
 	display:inline;
 	margin-right:25px;
 }
-
+#disqus_thread{
+	margin-top:35px;
+}
